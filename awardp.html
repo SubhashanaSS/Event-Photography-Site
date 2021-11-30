@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Award Ceremony Phopography | Z Studioz </title>
+	<link rel = "stylesheet" type = "text/css" href = "Styles/ewpstyles.css">
+	<script src = "js/script.js"></script> 
+	
+</head>
+
+<body>
+
+<!--navigation bar-->
+
+<div class="menu">
+
+ <div class="zstd"><a href="../HomeAndLogin/Homepage.php"><h1>Z studioz</h1></a></div>
+ 
+ <div class="nav">
+	<ul>
+	<li ><a href="../HomeAndLogin/Homepage.php"><font style="color:white">Home</font></a></li>
+	<li ><a href="Event.html"><font style="color:white">Events</font></a></li>
+	<li ><a href="../Payment/payment.html"><font style="color:white">Payment</font></a></li>
+	<li ><a href="../ContactAndAboutus/contact.html"><font style="color:white">Contact</font></a></li>
+	<li ><a href="../ContactAndAboutus/about.html"><font style="color:white">About Us</font></a></li>
+	<ul>
+	</div>
+ 
+ <div class="login">
+ <ul>
+	<li align = "right"><a href="../Registartion_and_Staff/register.html" class="button button1">Register</a></li>
+	<li><a href="../HomeAndLogin/login.php" class="button button1">Login</a></li>
+ </ul>
+ </div>
+
+ </div>
+ 
+ <center>
+	<h1 id = "ehead"> Award Ceremony Photography </h1>
+ </center>
+ 
+ <!--slide show-->
+
+<center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="Images/a1.jpg" style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Images/a2.jpg" style="width:40%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Images/a3.jpg" style="width:40%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+<!--gold package-->
+
+<div class ="wp1">
+ <div><img src = "Images/a1.jpg" width = "400" height = "300"></div>
+	<div class = "wp1txt">
+	<h2 style = "color:white">Gold Package</h2>
+	<h3 style = "color:white"><p>Including</p></h3>
+	<font style = "color:white"><ul>
+	<li>3 Albums</li>
+	<li>1 Cinematography of your Award Ceremony</li>
+	<li>Event Plan</li>
+	</font></ul>
+	<li><a href="../Payment/payment.html" class="button button1">Place Your Order</a></li>
+	</div>
+</div>
+</br>
+
+<!--platinum package-->
+
+<div class ="wp2">
+ <div><img src = "Images/a3.jpg" width = "400" height = "300"></div>
+	<div class = "wp2txt">
+	<h2 style = "color:white">Platinum Package</h2>
+	<h3 style = "color:white"><p>Including</p></h3>
+	<font style = "color:white"><ul>
+	<li>4 Albums</li>
+	<li>1 Cinematography of your Award Ceremony</li>
+	<li>Event Plan and Decorations</li>
+	</font></ul>
+	<li><a href="../Payment/payment.html" class="button button1">Place Your Order</a></li>
+	</div>
+</div>
+
+<!--tell us link-->
+
+<center>
+	<div class ="wp3txt">
+	<h2 style ="color:red">Have More Ideas? We'll like to know</h2>
+	<a href="http://localhost/Event%20Photography/Event/php/tellus.php" class= "button button1">Tell Us</a>
+	</div>
+</center>
+
+</br>
+<hr>
+
+<!--footer-->
+
+<footer>
+	<div class="footer">
+	
+	<div class="pay">
+	<img src="Images/payment.png" width = "200" height = "50"></div>
+	
+	<div class="arr">
+	<center>All Rights Reserved.</center></br>
+	<center>Powered by <a href = "../HomeAndLogin/Homepage.php"><font style="color:white">Z studioz</font></a></center>
+	</div>
+	
+	<div class="Social">
+	<a href = "https://www.facebook.com"><img src="Images/fbb.png" width = "30" height = "30"></a>
+	<a href = "https://www.instagram.com"><img src="Images/insta.png" width = "30" height = "30"></a>
+	<a href = "https://twitter.com"><img src="Images/twt.png" width = "30" height = "30"></a>
+	<a href = "https://www.pinterest.com"><img src="Images/pint.png" width = "30" height = "30"></a>
+	</div>
+	
+	</div>
+	
+</footer>
+
+<!--inline javascript of slideshow-->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+
+</body>
+</html>

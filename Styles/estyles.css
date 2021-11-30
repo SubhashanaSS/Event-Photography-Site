@@ -1,0 +1,168 @@
+body{
+	background-image : url("../Images/eback.jpg");
+	background-repeat : no-repeat;
+	background-size : cover;
+	font-family: Helvetica,Neue,sans-serif;
+}
+
+/*button styles*/
+
+.button {
+  background-color: #1589ff ;
+  border: none;
+  color: white;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1{border-radius:4px;}
+
+/*navigation bar*/
+	
+.menu
+{
+	display:flex;
+	justify-content: space-around;
+	background-color:black;
+}
+
+.zstd a{
+	text-decoration:none;
+	color: white;
+}
+
+.login
+{
+	list-style:none;
+}
+
+.nav ul
+{
+	display:flex;
+	
+	
+}
+.nav li 
+{
+	list-style:none;
+	padding:15px;
+
+	
+}
+.nav a 
+{
+	text-decoration:none;
+}
+
+
+.nav a:hover {
+  background-color: navy;
+}
+
+.login ul
+{
+	display:flex;
+	
+}
+
+.login li
+{
+	list-style:none;
+	padding:15px;
+}
+
+/*styles of event part*/
+
+.wed
+{
+	display:flex;
+	justify-content:space-around;
+	background-color: black;
+}
+
+
+.wedtxt
+{
+ padding:70px;	
+ size:
+}
+
+.conv
+{
+	display:flex;
+	justify-content:space-around;
+	background-color: black;
+}
+
+
+.convtxt
+{
+ padding:70px;	
+ size:
+}
+
+.batc
+{
+	display:flex;
+	justify-content:space-around;
+	background-color: black;
+}
+
+
+.batctxt
+{
+ padding:70px;	
+ size:
+}
+
+.awar
+{
+	display:flex;
+	justify-content:space-around;
+	background-color: black;
+}
+
+
+.awartxt
+{
+ padding:70px;	
+ size:
+}
+
+/*style of line 63. "Events"*/
+
+#head
+{
+	color:white;
+}
+
+/*footer*/
+	
+.footer
+{
+	display:flex;
+	justify-content:space-around;
+	background-color:black;
+}
+
+.pay
+{
+	padding:15px;
+}
+.arr
+{
+	padding:15px;
+	color:white;
+	
+}
+
+.Social
+{
+	padding:15px;
+}
+
